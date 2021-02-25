@@ -1,0 +1,22 @@
+{
+  "name": "my-cli-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "appolica": "./bin/index.js"
+  },
+  "dependencies": {
+    "atob": "^2.1.2",
+    "btoa": "^1.2.1",
+    "crypto-js": "^4.0.0",
+    "yargs": "^13.2.4"
+  }
+}
